@@ -270,6 +270,10 @@ input{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+.cards:hover
+{
+    cursor: default;
+}
 .radio_cards
 {
     display: flex;
@@ -278,5 +282,10 @@ input{
 }
 .radio{
     height: 40%;
+    display: none;
+}
+
+#places
+{
     display: none;
 }
